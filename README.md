@@ -63,3 +63,26 @@ namespace CLASS
 		}
 	}
 }
+
+D)
+using System;
+
+namespace class
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Digite 'sim' ou 'não': ");
+            
+            string resposta = Console.ReadLine();
+            
+            bool respostaBool = resposta.ToLower() == "sim";
+            
+            Console.WriteLine("O valor da variável booleana é: " + respostaBool);
+            
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey(true);
+        }
+    }
+}   
